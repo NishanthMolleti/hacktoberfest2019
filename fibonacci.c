@@ -10,7 +10,9 @@ int fib(int n)
 //Tested progam
 int main()
 {
-    int n = 9;
+    int n ;
+    printf("Enter n value:");
+    scanf("%d",&n);                     //runtime allocation
     printf("%d", fib(n));
     getchar();
     return 0;
